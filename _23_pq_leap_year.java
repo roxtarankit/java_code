@@ -4,7 +4,7 @@ public class _23_pq_leap_year{
     public static void main(String args[]){
         Scanner sc=new Scanner(System.in);
 
-        System.out.println("Enter Year: ");
+        System.out.println("Enter Year to check: ");
         int year=sc.nextInt();
 
         if((year%4==0) && (year%100!=0))
